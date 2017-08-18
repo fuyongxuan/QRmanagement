@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace QrMgr
+{
+    /// <summary>
+    /// Handler1 的摘要说明
+    /// </summary>
+    public class Handler1 : IHttpHandler
+    {
+
+        public void ProcessRequest(HttpContext context)
+        {
+            context.Response.ContentType = "text/plain";
+          //  context.Response.Write("Hello World");
+            if (context.Request.QueryString["isbn"] != null) {
+                context.Response.Redirect("point.aspx?isbn=" + context.Request.QueryString["isbn"]);
+            }
+        }
+
+        public bool IsReusable
+        {
+            get
+            {
+                return false;
+            }
+        }
+    }
+}

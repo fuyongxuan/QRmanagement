@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="qrmgr" Class="DataClasses1DataContext" Serialization="Unidirectional" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=PETERMAO-PC\SQLEXPRESS;Initial Catalog=qrmgr;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="qrmgrConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.qrcode" Member="qrcode">
+    <Type Name="qrcode">
+      <Column Name="qrId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="uploadId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Url" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="生成时间" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="备注" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="uploadlinq_qrcode" Member="uploadlinq" ThisKey="uploadId" OtherKey="uploadId" Type="uploadlinq" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.upload" Member="uploadlinq">
+    <Type Name="uploadlinq">
+      <Column Name="uploadId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="类型" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="路径" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="上传时间" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="备注" Type="System.String" DbType="VarChar(1024)" CanBeNull="true" />
+      <Column Name="是否启用" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="uploadlinq_qrcode" Member="qrcode" ThisKey="uploadId" OtherKey="uploadId" Type="qrcode" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbluser" Member="tbluser">
+    <Type Name="tbluser">
+      <Column Name="用户名" Type="System.String" DbType="VarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="密码" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="userflag" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.book" Member="book">
+    <Type Name="book">
+      <Column Name="Book_Title" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Book_ISBN" Type="System.String" DbType="VarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Book_Author" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Book_Brief" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Book_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Book_coverpath" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="Book_addDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.position" Member="position">
+    <Type Name="position">
+      <Column Name="Book_ISBN" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Pos" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="seq" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="qrid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

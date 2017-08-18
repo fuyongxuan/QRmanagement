@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="admin.aspx">
+      <publishTime>01/20/2017 16:46:04</publishTime>
+    </File>
+    <File Include="admin.Master">
+      <publishTime>12/18/2016 15:37:31</publishTime>
+    </File>
+    <File Include="bin/CKEditor.NET.dll">
+      <publishTime>07/15/2014 13:47:02</publishTime>
+    </File>
+    <File Include="bin/CKFinder.dll">
+      <publishTime>06/02/2016 21:07:48</publishTime>
+    </File>
+    <File Include="bin/CKFinder_FileEditor.dll">
+      <publishTime>06/02/2016 21:07:48</publishTime>
+    </File>
+    <File Include="bin/CKFinder_ImageResize.dll">
+      <publishTime>06/02/2016 21:07:48</publishTime>
+    </File>
+    <File Include="bin/CKFinder_Watermark.dll">
+      <publishTime>06/02/2016 21:07:48</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>12/08/2016 22:13:52</publishTime>
+    </File>
+    <File Include="bin/ICSharpCode.SharpZipLib.dll">
+      <publishTime>05/25/2010 12:55:22</publishTime>
+    </File>
+    <File Include="bin/QrMgr.dll">
+      <publishTime>04/12/2017 16:02:16</publishTime>
+    </File>
+    <File Include="bin/ThoughtWorks.QRCode.dll">
+      <publishTime>09/28/2011 14:20:00</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/EntityFramework.resources.dll">
+      <publishTime>12/08/2016 22:13:58</publishTime>
+    </File>
+    <File Include="book.aspx">
+      <publishTime>01/18/2017 22:17:44</publishTime>
+    </File>
+    <File Include="checkCode.aspx">
+      <publishTime>12/16/2016 19:27:52</publishTime>
+    </File>
+    <File Include="DataClasses1.dbml">
+      <publishTime>04/12/2017 13:34:21</publishTime>
+    </File>
+    <File Include="editor.aspx">
+      <publishTime>12/06/2016 21:32:38</publishTime>
+    </File>
+    <File Include="Error.aspx">
+      <publishTime>10/30/2016 18:31:51</publishTime>
+    </File>
+    <File Include="GenQr.aspx">
+      <publishTime>10/30/2016 17:18:43</publishTime>
+    </File>
+    <File Include="getzip.aspx">
+      <publishTime>12/21/2016 14:12:25</publishTime>
+    </File>
+    <File Include="guide.aspx">
+      <publishTime>04/12/2017 13:51:53</publishTime>
+    </File>
+    <File Include="Handler1.ashx">
+      <publishTime>01/20/2017 16:07:22</publishTime>
+    </File>
+    <File Include="keepsession.aspx">
+      <publishTime>12/18/2016 15:37:19</publishTime>
+    </File>
+    <File Include="login.aspx">
+      <publishTime>12/21/2016 14:55:46</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>12/08/2016 22:13:58</publishTime>
+    </File>
+    <File Include="point.aspx">
+      <publishTime>04/12/2017 13:41:36</publishTime>
+    </File>
+    <File Include="qr.aspx">
+      <publishTime>12/27/2016 19:13:37</publishTime>
+    </File>
+    <File Include="QrCodemgr.aspx">
+      <publishTime>10/31/2016 22:01:11</publishTime>
+    </File>
+    <File Include="QrRedirect.aspx">
+      <publishTime>10/30/2016 17:31:52</publishTime>
+    </File>
+    <File Include="script/video-js.css">
+      <publishTime>12/16/2016 10:39:01</publishTime>
+    </File>
+    <File Include="script/video.js">
+      <publishTime>12/16/2016 10:39:32</publishTime>
+    </File>
+    <File Include="script/videojs-ie8.min.js">
+      <publishTime>12/16/2016 10:39:18</publishTime>
+    </File>
+    <File Include="upload.aspx">
+      <publishTime>12/27/2016 19:04:20</publishTime>
+    </File>
+    <File Include="Uploader.aspx">
+      <publishTime>10/31/2016 22:08:35</publishTime>
+    </File>
+    <File Include="useradmin.aspx">
+      <publishTime>12/24/2016 19:53:04</publishTime>
+    </File>
+    <File Include="viewhtml.aspx">
+      <publishTime>12/26/2016 17:18:08</publishTime>
+    </File>
+    <File Include="viewpic.aspx">
+      <publishTime>10/30/2016 18:23:09</publishTime>
+    </File>
+    <File Include="viewvideo.aspx">
+      <publishTime>12/26/2016 17:18:33</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/12/2017 16:02:16</publishTime>
+    </File>
+    <File Include="封面1.jpg">
+      <publishTime>12/29/2016 10:14:30</publishTime>
+    </File>
+    <File Include="封面2.jpg">
+      <publishTime>12/29/2016 10:14:30</publishTime>
+    </File>
+    <File Include="封面3.jpg">
+      <publishTime>12/29/2016 10:14:30</publishTime>
+    </File>
+    <File Include="封面4.jpg">
+      <publishTime>12/29/2016 10:14:30</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,46 @@
+C:\Users\pmy\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\bin\QrMgr.dll
+C:\Users\pmy\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\bin\QrMgr.pdb
+C:\Users\pmy\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\bin\CKFinder.dll
+C:\Users\pmy\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\bin\CKFinder_FileEditor.dll
+C:\Users\pmy\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\bin\CKFinder_ImageResize.dll
+C:\Users\pmy\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\bin\CKFinder_Watermark.dll
+C:\Users\pmy\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\bin\EntityFramework.dll
+C:\Users\pmy\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\bin\CKFinder_FileEditor.pdb
+C:\Users\pmy\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\bin\CKFinder_ImageResize.pdb
+C:\Users\pmy\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\bin\CKFinder_Watermark.pdb
+C:\Users\pmy\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\bin\EntityFramework.xml
+C:\Users\pmy\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\bin\zh-Hans\EntityFramework.resources.dll
+C:\Users\pmy\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\obj\Debug\QrMgr.csprojResolveAssemblyReference.cache
+C:\Users\pmy\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\obj\Debug\QrMgr.dll
+C:\Users\pmy\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\obj\Debug\QrMgr.pdb
+C:\Users\petermao\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\bin\QrMgr.dll
+C:\Users\petermao\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\bin\QrMgr.pdb
+C:\Users\petermao\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\bin\CKFinder.dll
+C:\Users\petermao\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\bin\CKFinder_FileEditor.dll
+C:\Users\petermao\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\bin\CKFinder_ImageResize.dll
+C:\Users\petermao\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\bin\CKFinder_Watermark.dll
+C:\Users\petermao\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\bin\EntityFramework.dll
+C:\Users\petermao\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\bin\CKFinder_FileEditor.pdb
+C:\Users\petermao\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\bin\CKFinder_ImageResize.pdb
+C:\Users\petermao\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\bin\CKFinder_Watermark.pdb
+C:\Users\petermao\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\bin\EntityFramework.xml
+C:\Users\petermao\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\bin\zh-Hans\EntityFramework.resources.dll
+C:\Users\petermao\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\obj\Debug\QrMgr.csprojResolveAssemblyReference.cache
+C:\Users\petermao\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\obj\Debug\QrMgr.dll
+C:\Users\petermao\Documents\Visual Studio 2012\Projects\QrMgr\QrMgr\obj\Debug\QrMgr.pdb
+D:\毕业设计\QR\QrMg\QrMgr\QrMgr\bin\QrMgr.dll.config
+D:\毕业设计\QR\QrMg\QrMgr\QrMgr\bin\QrMgr.dll
+D:\毕业设计\QR\QrMg\QrMgr\QrMgr\bin\QrMgr.pdb
+D:\毕业设计\QR\QrMg\QrMgr\QrMgr\bin\CKFinder.dll
+D:\毕业设计\QR\QrMg\QrMgr\QrMgr\bin\CKFinder_FileEditor.dll
+D:\毕业设计\QR\QrMg\QrMgr\QrMgr\bin\CKFinder_ImageResize.dll
+D:\毕业设计\QR\QrMg\QrMgr\QrMgr\bin\CKFinder_Watermark.dll
+D:\毕业设计\QR\QrMg\QrMgr\QrMgr\bin\EntityFramework.dll
+D:\毕业设计\QR\QrMg\QrMgr\QrMgr\bin\CKFinder_FileEditor.pdb
+D:\毕业设计\QR\QrMg\QrMgr\QrMgr\bin\CKFinder_ImageResize.pdb
+D:\毕业设计\QR\QrMg\QrMgr\QrMgr\bin\CKFinder_Watermark.pdb
+D:\毕业设计\QR\QrMg\QrMgr\QrMgr\bin\EntityFramework.xml
+D:\毕业设计\QR\QrMg\QrMgr\QrMgr\bin\zh-Hans\EntityFramework.resources.dll
+D:\毕业设计\QR\QrMg\QrMgr\QrMgr\obj\Debug\QrMgr.csprojResolveAssemblyReference.cache
+D:\毕业设计\QR\QrMg\QrMgr\QrMgr\obj\Debug\QrMgr.dll
+D:\毕业设计\QR\QrMg\QrMgr\QrMgr\obj\Debug\QrMgr.pdb
